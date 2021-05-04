@@ -1,0 +1,32 @@
+#fb-login{
+    width: 100%;
+    /* background: #fafafa; */
+    display: flex;
+    align-items: center;
+    border: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color .218s,border-color .218s,box-shadow .218s
+}
+#fb-login:hover{
+    box-shadow: 0 2px 4px 0 #4285f4;
+}
+#fb-login img{
+    height: 100%;
+}
+#fb-login span{
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    /* color: #4285f4; */
+    letter-spacing: .21px
+}
+#fb-login.light{
+    background: #fafafa;
+    color: #4285f4;
+}
+
+#fb-login.dark{
+    background: #45619d;
+    color: #fff;
+}
